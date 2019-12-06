@@ -1,3 +1,5 @@
 #!/usr/bin/env ruby
+require './lib/footy'
 
-puts "hello"
+
+Footy::CLI.new.call
